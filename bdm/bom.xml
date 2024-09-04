@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.ReqEstClientesAnaliticaFinanc">
+            <fields>
+                <field type="STRING" length="255" name="fechaRequerimiento" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fechaInicioPeriodoAnalisis" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fechaFinalPeriodoAnalisis" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="paqueteEstrategiasFidelizacion" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="paqueteEstrategiasRetencion" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="observacionesFinancieras" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="paqueteAprobado" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ReqEstClientesAnaliticaMark">
+            <fields>
+                <field type="LOCALDATE" length="255" name="fechaRequerimiento" nullable="false" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaInicioPeriodoAnalisis" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="fechaFinalPeriodoAnalisis" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="detalleSolicitud" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="aplicacionesAConsultar" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="informeConsumo" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="observacionesDeClientes" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="paqueteEstrategiasFidelizacion" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="paqueteEstrategiasRetencion" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="observacionesFinancieras" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="paqueteAprobado" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="observacionesMarketing" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="paqueteEstrategiasImplementadas" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ReqEstClientesAnaliticaOp">
+            <fields>
+                <field type="STRING" length="255" name="fechaRequerimiento" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fechaInicioPeriodoAnalisis" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fechaFinalPeriodoAnalisis" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="aplicacionesAConsultar" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="observacionesDeClientes" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="detalleSolicitud" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="informeConsumo" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.company.model.ReqEstClientesAnaliticaTI">
+            <fields>
+                <field type="STRING" length="255" name="fechaRequerimiento" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fechaInicioPeriodoAnalisis" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="fechaFinalPeriodoAnalisis" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="aplicacionesAConsultar" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="informeConsumo" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="detalleSolicitud" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

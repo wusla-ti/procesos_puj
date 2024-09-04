@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="ASCII"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Camilo">
+      <firstName>Camilo</firstName>
+      <lastName>Pardo (Gerente comercial)</lastName>
+      <title>Sr</title>
+      <jobTitle>Profesion 1</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Cristhian">
+      <firstName>Cristhian</firstName>
+      <lastName>Reyes (Coordinador de marketing)</lastName>
+      <title>Sr</title>
+      <jobTitle>Profesion 2</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Jorge">
+      <firstName>Jorge</firstName>
+      <lastName>Marin (Gerente financiero)</lastName>
+      <title>Sr</title>
+      <jobTitle>Profesion 3</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Laura">
+      <firstName>Laura</firstName>
+      <lastName>Tobon (Analista operaciones)</lastName>
+      <title>Sra</title>
+      <jobTitle>Profesion 4</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Carolina">
+      <firstName>Carolina</firstName>
+      <lastName>Romero (Coordinador TI)</lastName>
+      <title>Sra</title>
+      <jobTitle>Profesion 5</jobTitle>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Gerente comercial y de marketing">
+      <displayName>Gerente comercial y de marketing</displayName>
+    </role>
+    <role name="Coordinador de marketing">
+      <displayName>Coordinador de marketing</displayName>
+    </role>
+    <role name="Gerente financiero">
+      <displayName>Gerente financiero</displayName>
+    </role>
+    <role name="Analista de operaciones">
+      <displayName>Analista de operaciones</displayName>
+    </role>
+    <role name="Coordinador de operaciones TI">
+      <displayName>Coordinador de operaciones TI</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Gerencia comercial y marketing">
+      <displayName>Gerencia comercial y marketing</displayName>
+      <description>Gerencia comercial y de marketing</description>
+    </group>
+    <group name="Gerencia financiera">
+      <displayName>Gerencia financiera</displayName>
+      <description>Gerencia financiera</description>
+    </group>
+    <group name="Gerencia de operaciones">
+      <displayName>Gerencia de operaciones</displayName>
+      <description>Gerencia de operaciones</description>
+    </group>
+    <group name="Gerencia de TI">
+      <displayName>Gerencia de TI</displayName>
+      <description>Gerecnia de TI</description>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Camilo</userName>
+      <roleName>Gerente comercial y de marketing</roleName>
+      <groupName>Gerencia comercial y marketing</groupName>
+    </membership>
+    <membership>
+      <userName>Cristhian</userName>
+      <roleName>Coordinador de marketing</roleName>
+      <groupName>Gerencia comercial y marketing</groupName>
+    </membership>
+    <membership>
+      <userName>Jorge</userName>
+      <roleName>Gerente financiero</roleName>
+      <groupName>Gerencia financiera</groupName>
+    </membership>
+    <membership>
+      <userName>Laura</userName>
+      <roleName>Analista de operaciones</roleName>
+      <groupName>Gerencia de operaciones</groupName>
+    </membership>
+    <membership>
+      <userName>Carolina</userName>
+      <roleName>Coordinador de operaciones TI</roleName>
+      <groupName>Gerencia de TI</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>
